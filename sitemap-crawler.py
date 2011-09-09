@@ -3,10 +3,14 @@
     Version: 0.1
     Date:    2011-9-7
     Site: www.darrennix.com
+    License: Apache 2.0
 
     Crawls a site to find unique page URLs and returns them as a list.
     Ignores query strings, badly formed URLs, and links to domains
     outside of the starting domain.
+    
+    Inspired by sitemap_gen from Valdimir Toncar
+
 
     DEPENDENCIES:
     BeautifulSoup HTML parsing library
