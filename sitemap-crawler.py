@@ -53,7 +53,7 @@ class Sitemapper():
 		while True:
 			#Infinite loop sanity check
 			counter +=1
-			if counter > 20:
+			if counter > max_urls:
 				break
 
 			for url, body in pool.imap(self.fetch, urls_queue):
